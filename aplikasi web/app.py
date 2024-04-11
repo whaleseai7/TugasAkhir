@@ -11,7 +11,7 @@ from flask import redirect, url_for
 import sqlalchemy as sa
 import secrets
 import os
-a
+ab
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///devices.db'
